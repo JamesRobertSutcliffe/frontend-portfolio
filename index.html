@@ -37,7 +37,7 @@
 
       <!-- JUMBOTRON HERO -->
 
-      <div class="jumbotron-fluid d-flex justify-content-left align-items-center">
+      <div class="jumbotron-fluid d-flex justify-content-center align-items-center">
         <div class="container-fluid ">
           <div class="row d-flex justify-content-center align-items-center">
             <div class=" jamesImg">
@@ -45,7 +45,7 @@
             </div>
           <div>
           <h1 class="display-4">James Robert Sutcliffe</h1>
-          <p class="lead">Full-Stack Developer with a passion for building and learning <br> all things programming related. </p>
+          <p class="lead">Front End Developer with a passion for building and learning <br> all things programming related. </p>
         </div>
         </div>
         </div>
@@ -53,14 +53,14 @@
 
       <!-- About me -->
 
-      <div class="container-fluid aboutMe" id="aboutMe">
+      <div class="container-fluid d-flex justify-content-center align-items-center aboutMe" id="aboutMe">
         <div class="row">
       <aside class="cardContainer col-lg-2.5 col-md-2 col-sm-12 aside">About Me</aside>
       <div class="cardContainer col-lg-9 col-md-9 col-sm-12">
        <div class="row">
         <div class="cardContainer col-lg-6 col-md-3 col-sm-12">
           <div class="card" style="width: 100%;">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.72810792064!2d-0.24168037616337476!3d51.52877184051776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1673799485519!5m2!1sen!2suk"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="about-me-img-height" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158857.72810792064!2d-0.24168037616337476!3d51.52877184051776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon!5e0!3m2!1sen!2suk!4v1673799485519!5m2!1sen!2suk"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="card-body">
               <h3 class="card-text">London, UK Based</h3>
             </div>
@@ -68,7 +68,7 @@
         </div>
         <div class="cardContainer col-lg-6 col-md-3 col-sm-12">
           <div class="card" style="width: 100%;">
-            <img src="..." class="card-img-top" alt="...">
+            <img class="about-me-img3 about-me-img-height" alt="">
             <div class="card-body">
               <h3 class="card-text">Lifelong Learner</h3>
             </div>
@@ -77,15 +77,15 @@
 
         <div class="cardContainer col-lg-6 col-md-3 col-sm-12">
           <div class="card" style="width: 100%;">
-            <img src="..." class="card-img-top" alt="...">
+            <img class="about-me-img2 about-me-img-height" alt="">
             <div class="card-body">
-              <h3 class="card-text">Passion for computing and tech</h3>
+              <h3 class="card-text">Passion for Computing and Tech</h3>
             </div>
           </div>
         </div>
         <div class="cardContainer col-lg-6 col-md-3 col-sm-12">
           <div class="card" style="width: 100%;">
-            <img src="..." class="card-img-top" alt="...">
+            <img class="about-me-img1 about-me-img-height" alt="...">
             <div class="card-body">
               <h3 class="card-text">Music Enthusiast</h3>
             </div>
@@ -100,26 +100,13 @@
       <!-- skills -->
 
       <div class="container-fluid skills" id="skills">
-        <div class="row">
-      <aside class="cardContainer col-lg-2.5 col-md-2 col-sm-12 aside">Skills</aside>    
-      <div class="cardContainer col-lg-2 col-md-2 col-sm-2">      
-        <img src="images/html.png" style="height: 100px;" alt="">
-      </div>          
-      <div class="cardContainer col-lg-2 col-md-2 col-sm-2">    
-                <img src="images/css3.png" style="height: 100px;" alt="">
-              </div>   
-                <div class="cardContainer col-lg-2 col-md-2 col-sm-2">   
-                <img src="images/javascript.png" style="height: 100px;" alt="">
-              </div>   
-                <div class="cardContainer col-lg-2 col-md-2 col-sm-2">   
-                <img src="images/nodejs.png" style="height: 100px;" alt="">
-              </div>   
-                <div class="cardContainer col-lg-2 col-md-2 col-sm-2">   
-                <img src="images/react.png" style="height: 100px;" alt="">
-              </div>   
-     
+      <div class="row">
+       <aside class="cardContainer col-lg-2.5 col-md-2 col-sm-12 aside">Skills</aside>    
+       <div class="cardContainer col-lg-9 col-md-9 col-sm-12 d-flex justify-content-around">
+      </div>      
+      </div>  
       </div>
-      </div>
+
 
       <!-- Portfolio Grid -->
 
@@ -143,7 +130,10 @@
    <!-- 4 lower boxes -->
    <div class="cardContainer col-lg-9 col-md-9 col-sm-12">  
    <div class="row">
-      <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
+      
+    <!-- card 1 -->
+
+    <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%;">
           <a href="https://jamesrobertsutcliffe.github.io/movie_database_2/">
           <img src="images/film.jpg" class="card-img-top" alt="Old film reel">
@@ -154,6 +144,9 @@
           </div>
         </div>
       </div>
+
+<!-- card 2 -->
+
       <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%;">
           <a href="https://jamesrobertsutcliffe.github.io/fruit-basket/">
@@ -165,6 +158,9 @@
           </div>
         </div>
       </div>
+
+<!-- card 3 -->
+
       <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%">
           <a href="#">
@@ -176,6 +172,9 @@
           </div>
         </div>
       </div>
+
+<!-- card 4 -->
+
       <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
         <div class="card" style="width: 100%;">
           <a href="#">

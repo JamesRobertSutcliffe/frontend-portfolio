@@ -13,6 +13,11 @@ body {
   background-color: var(--light);
 }
 
+h1, h3, p {
+  text-align: center;
+ }
+
+
 /* NAVBAR */
 
 .navbar-nav a {
@@ -71,6 +76,26 @@ background-color: var(--tertiary);
   height: 100vh;
 }
 
+.about-me-img1 {
+  background-image: url(/images/music.jpeg);
+  background-size: cover;
+  }
+
+ .about-me-img2 {
+  background-image: url(/images/tech.jpeg);
+  background-size: cover;
+ }
+
+ .about-me-img3 {
+  background-image: url(/images/study.jpeg);
+  background-size: cover;
+ }
+
+ .about-me-img-height {
+  height: 30vh;
+ }
+
+
 /* skills */
 
 .skills {
@@ -106,7 +131,7 @@ background-color: var(--tertiary);
     box-shadow: 0 10px 20px var(--secondary);
   }
 
-/* contact */
+  /* contact */
 
 .contact {
   margin-top: 15px;
@@ -131,4 +156,5 @@ background-color: var(--tertiary);
   padding: 10px;
   background-color: var(--secondary);
  }
+
 
