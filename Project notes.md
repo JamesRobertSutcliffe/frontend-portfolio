@@ -2,8 +2,7 @@
 
 Jumbo tron
 ---------
-Make jumbotron bigger and hit the whole page, add animated background. 
-Improve copy in this section - 'Front End Developer committed to lifelong learning who likes to build from ground up 
+add animated background. - fix to bg?
 Link to cv here? 
 
 
@@ -18,6 +17,8 @@ Add adobe, bootstrap, git icons - add text
 
 Work section
 ---------
+
+change design - tree style - buttons and info on left - image on right // swap going down
 add links to both repo and live site. Ensure read mes are up to date. Target blank
 
 other
