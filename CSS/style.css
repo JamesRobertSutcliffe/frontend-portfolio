@@ -56,6 +56,7 @@ background-color: var(--tertiary);
   padding: 1px !important;
   margin: 10px;
   background-color: var(--light);
+  height: 100vh;
 }
 
 .jumboImg img {
@@ -67,6 +68,20 @@ background-color: var(--tertiary);
 
 .aboutMe {
   margin-bottom: 25px;
+  height: 100vh;
+}
+
+/* skills */
+
+.skills {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  height: 100vh;  
+
+}
+
+.skills a:hover {
+  box-shadow: 0 5px 15px var(--secondary);
 }
 
 /* WORK */
