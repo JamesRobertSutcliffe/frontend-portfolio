@@ -84,11 +84,13 @@ background-color: var(--tertiary);
  .about-me-img2 {
   background-image: url(/images/tech.jpeg);
   background-size: cover;
+  background-position: 50% 50%;
  }
 
  .about-me-img3 {
   background-image: url(/images/study.jpeg);
   background-size: cover;
+  background-position: 50% 50%;
  }
 
  .about-me-img-height {
