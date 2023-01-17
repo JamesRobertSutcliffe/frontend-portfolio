@@ -72,8 +72,8 @@ background-color: var(--tertiary);
 /* About me */
 
 .aboutMe {
-  margin-bottom: 25px;
-  height: 100vh;
+  /* margin-bottom: 25px; */
+  height: 110vh;
 }
 
 .about-me-img1 {
@@ -94,17 +94,24 @@ background-color: var(--tertiary);
  }
 
  .about-me-img-height {
-  height: 30vh;
+  height: 25vh;
  }
 
 
 /* skills */
 
 .skills {
-  margin-top: 15px;
-  margin-bottom: 20px;
-  height: 100vh;  
 
+  height: 100vh;  
+  
+
+}
+
+.skills-img{
+ height: 20vh; 
+ margin-top: 10px; 
+ margin-bottom: 40px; 
+ margin-left: 170px;
 }
 
 .skills a:hover {
