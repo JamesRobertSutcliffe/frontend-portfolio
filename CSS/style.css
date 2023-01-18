@@ -58,9 +58,6 @@ background-color: var(--tertiary);
 
 .jumbotron-fluid {
   background-color: var(--light);
-  padding: 1px !important;
-  margin: 10px;
-  background-color: var(--light);
   height: 100vh;
 }
 
@@ -92,6 +89,13 @@ background-color: var(--tertiary);
   background-size: cover;
   background-position: 50% 50%;
  }
+
+ .about-me-img4 {
+  background-image: url(/images/design.jpeg);
+  background-size: cover;
+  background-position: 5% 5%;
+ }
+
 
  .about-me-img-height {
   height: 25vh;
