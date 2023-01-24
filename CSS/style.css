@@ -35,6 +35,7 @@ h1, h2, h3, p {
 
 .card:hover {
   box-shadow: 0 10px 20px var(--secondary);
+
 }
 
 
@@ -79,7 +80,7 @@ background-color: var(--tertiary);
 
 .jumbotron-fluid {
   background-color: var(--light);
-  height: 100vh;
+  height: 80vh;
 }
 
 .jumboImg img {
@@ -146,7 +147,7 @@ background-color: var(--tertiary);
 
 
   .projects {
-       height: 100vh;
+       height: 110vh;
   }
 
   .projects-img1 {
@@ -158,13 +159,13 @@ background-color: var(--tertiary);
    .projects-img2 {
     background-image: url(/images/fruit.png);
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 50% 30%;
    }
   
    .projects-img3 {
     background-image: url(/images/password.png);
     background-size: cover;
-    background-position: 50% 20%;
+    background-position: 50% 30%;
    }
   
    .projects-img4 {
@@ -175,20 +176,35 @@ background-color: var(--tertiary);
   
   
    .projects-img-height {
-    height: 25vh;
+    height: 30vh;
    }
 
    .transition {
-    position: relative 50%;
-    background-color: var(--secondary);
-    
-    margin-top: 10vh;
+    position: relative 90%;
+    background-color: rgba(146, 204, 206, 0.95);
+    background-size: 100% 100%;
+    margin: 4px;
+    padding: 25px;
     opacity: 0;
+    transition:  all 0.15s ease-in;
+    height: 96%;
+   }
+
+   .transition button {
+    margin: 1em;
+   }
+
+   .transition p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
    }
 
    .transition:hover {
     opacity: 100%;
    }
+
   /* contact */
 
 .contact {
