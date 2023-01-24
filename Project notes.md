@@ -54,6 +54,7 @@ other animation (less busy) for rest of page - arrows etc linked to mouse positi
 Next steps:
 
 1 - Skills section - sort logos then animation style - complete for now (Flip cards with more info about me on back of each)
-2 - work section - keep same format with adaptation of size (like about me section)
-3 - contact me
-4 - tackle others section - animations
+2 - work section - keep same format with adaptation of size (like about me section) - complete for now
+3 - about me section - 6 cards? flip them for more info?
+4 - contact me - do next
+5 - tackle others section - animations
