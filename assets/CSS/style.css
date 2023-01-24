@@ -96,24 +96,24 @@ background-color: var(--tertiary);
 }
 
 .about-me-img1 {
-  background-image: url(images/music.jpeg);
+  background-image: url('../images/music.jpeg');
   background-size: cover;
   }
 
  .about-me-img2 {
-  background-image: url(images/tech.jpeg);
+  background-image: url('../images/tech.jpeg');
   background-size: cover;
   background-position: 50% 50%;
  }
 
  .about-me-img3 {
-  background-image: url(images/study.jpeg);
+  background-image: url('../images/study.jpeg');
   background-size: cover;
   background-position: 50% 50%;
  }
 
  .about-me-img4 {
-  background-image: url(images/design.jpeg);
+  background-image: url('../images/design.jpeg');
   background-size: cover;
   background-position: 5% 5%;
  }
@@ -152,25 +152,25 @@ background-color: var(--tertiary);
   }
 
   .projects-img1 {
-    background-image: url(images/codequiz.png);
+    background-image: url('../images/codequiz.png');
     background-size: cover;
     background-position: 50% 50%;
     }
   
    .projects-img2 {
-    background-image: url(images/fruit.png);
+    background-image: url('../images/fruit.png');
     background-size: cover;
     background-position: 50% 30%;
    }
   
    .projects-img3 {
-    background-image: url(images/password.png);
+    background-image: url('../images/password.png');
     background-size: cover;
     background-position: 50% 30%;
    }
   
    .projects-img4 {
-    background-image: url(images/film.jpg);
+    background-image: url('../images/film.jpg');
     background-size: cover;
     background-position: 50% 50%;
    }
