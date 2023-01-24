@@ -11,6 +11,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
   background-color: var(--light);
+  /* background: linear-gradient(0.25turn, var(--secondary), var(--light)); */
 }
 
 h1, h2, h3, p {
@@ -79,7 +80,7 @@ background-color: var(--tertiary);
 /* JUMBO */
 
 .jumbotron-fluid {
-  background-color: var(--light);
+  /* background-color: var(--light); */
   height: 80vh;
 }
 
