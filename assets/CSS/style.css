@@ -229,7 +229,7 @@ background-color: var(--tertiary);
 }
 
 .contact a:hover {
-  box-shadow: 0 5px 15px var(--secondary);
+  scale: 110%;
 }
 
 /* footer */
