@@ -3,21 +3,23 @@
 Jumbo tron
 ---------
 add animated background. - fix to bg?
-Link to cv here? 
+
 
 About me 
 ---------
 
 Fade on
-animate on? 
-maybe make entire section animation? Research
+6 cards? flip them for more info?
+
+--- make entire section animation? Research -- in future?
+
 
 skills
 ---------
 
 fade on
 find cool way for icons to animate on page - icons drop on and float into position?
-Add adobe, bootstrap, git icons - add text underneath (photoshop)
+
 add 3 more skills when have learned (bootstrap? Git? JQeury? SQL? MondoGB?)
 
 
@@ -26,16 +28,8 @@ Work section
 
 Fade on
 
-add links to both repo and live site. Ensure read mes are up to date. Target blank
-Change size - first picture larger with 2 or 4 underneath? or keep 4?
-use same method as about me section with background images to adapt size
-Flip cards to reveal links?
-
-
 Contact
 ---------
-
-Fade on
 Add contact me form
 make section single vh
 
@@ -53,8 +47,6 @@ other animation (less busy) for rest of page - arrows etc linked to mouse positi
 
 Next steps:
 
-1 - Skills section - sort logos then animation style - complete for now (Flip cards with more info about me on back of each)
-2 - work section - keep same format with adaptation of size (like about me section) - complete for now
-3 - about me section - 6 cards? flip them for more info?
-4 - contact me - do next
-5 - tackle others section - animations
+NEXT
+about me section - 6 cards? flip them for more info?
+ tackle others section - animations
