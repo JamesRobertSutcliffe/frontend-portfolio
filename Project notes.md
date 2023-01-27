@@ -39,7 +39,7 @@ new about me animation
 Next steps:
 
 NEXT
-about me section - 6 cards? flip them for more info?
+about me section - 6 cards? flip them for more info? add another card? 
 skills section animation
 animations on hero / scroll / bg
 others...

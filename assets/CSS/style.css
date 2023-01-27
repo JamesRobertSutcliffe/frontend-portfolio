@@ -115,12 +115,12 @@ background-color: var(--tertiary);
  .about-me-img4 {
   background-image: url('../images/design.jpeg');
   background-size: cover;
-  background-position: 5% 5%;
+  background-position: 50% 50%;
  }
 
 
  .about-me-img-height {
-  height: 25vh;
+  height: 18vh;
  }
 
 
