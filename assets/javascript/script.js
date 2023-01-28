@@ -10,6 +10,6 @@ const observer = new IntersectionObserver(entries => {
 
 });
 
-hiddenSections.forEach(div => {
-observer.observe(div);
+hiddenSections.forEach(attr => {
+observer.observe(attr);
 })
