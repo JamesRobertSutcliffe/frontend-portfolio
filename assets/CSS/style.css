@@ -8,13 +8,12 @@
 
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  line-height: 1.5;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: var(--light);
   /* background: linear-gradient(0.25turn, var(--secondary), var(--light)); */
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
   text-align: center;
  }
 
@@ -80,7 +79,6 @@ background-color: var(--tertiary);
 /* JUMBO */
 
 .jumbotron-fluid {
-  /* background-color: var(--light); */
   height: 80vh;
 }
 
@@ -135,7 +133,6 @@ background-color: var(--tertiary);
 .skills {
 
   height: 100vh;  
-  
 
 }
 
@@ -201,7 +198,6 @@ background-color: var(--tertiary);
    .transition a {
     color: rgba(146, 204, 206, 1) !important;
     padding: 5px;
-    /* margin-right: 60px; */
     background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
@@ -220,7 +216,7 @@ background-color: var(--tertiary);
     margin-bottom: 2em;
     margin-left: 1em;
     margin-right: 1em;
-    font-weight: bolder;
+    /* font-weight: bolder; */
    }
 
    .transition:hover {
@@ -253,4 +249,13 @@ background-color: var(--tertiary);
   background-color: var(--secondary);
  }
 
+/* Fade on sections */
 
+.hide {
+  opacity: 0;
+  transition: 400ms;
+}
+
+.show {
+  opacity: 1;
+}

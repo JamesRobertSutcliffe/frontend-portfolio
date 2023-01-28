@@ -8,38 +8,34 @@ add animated background
 About me 
 ---------
 
-Fade on
-6 cards? flip them for more info?
 --- make entire section animation? Research -- in future?
 
 skills
 ---------
 
-fade on
 find cool way for icons to animate on page - icons drop on and float into position?
 
 Work section
 ---------
-Fade on
+
+Update to better projects
 
 Contact
 ---------
 Add contact me form
 make section single vh
+fade on
 
 other
 ---------
 
-contact form?
 Blog?
 Revise README
 make mobile friendly
-new about me animation
 
 Next steps:
 
-NEXT
-about me section - add film / exercise / food / coffee along bottom row?
+NEXT:
+make hero animation
 skills section animation?? 
-animations on hero / scroll / bg
 others...
