@@ -39,7 +39,7 @@ new about me animation
 Next steps:
 
 NEXT
-about me section - 6 cards? flip them for more info? add another card? 
-skills section animation
+about me section - add film / exercise / food / coffee along bottom row?
+skills section animation?? 
 animations on hero / scroll / bg
 others...

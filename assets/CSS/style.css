@@ -103,20 +103,26 @@ background-color: var(--tertiary);
  .about-me-img2 {
   background-image: url('../images/tech.jpeg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 62%;
  }
 
  .about-me-img3 {
   background-image: url('../images/study.jpeg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 5% 32%;
  }
 
  .about-me-img4 {
   background-image: url('../images/design.jpeg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 5% 5%;
  }
+
+ .about-me-img5 {
+  background-image: url('../images/hardwork.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+  }
 
 
  .about-me-img-height {
