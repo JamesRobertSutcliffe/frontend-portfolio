@@ -10,7 +10,8 @@
 body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: var(--light);
-  /* background: linear-gradient(0.25turn, var(--secondary), var(--light)); */
+  letter-spacing: 1px;
+
 }
 
 h1, h2, h3, h4, p {
@@ -132,7 +133,7 @@ background-color: var(--tertiary);
 
 .skills {
 
-  height: 100vh;  
+  height: 105vh;  
 
 }
 
