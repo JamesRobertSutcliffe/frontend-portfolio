@@ -1,5 +1,5 @@
 :root {
-  --primary: rgba(68,88, 119, 1);
+  --primary: rgba(68, 88, 119, 1);
   --secondary: rgba(146, 204, 206, 1);
   --tertiary: rgba(49, 52, 61, 1);
   --dark: rgba(28, 29, 33, 1);
@@ -14,20 +14,24 @@ body {
 
 }
 
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   text-align: center;
- }
+}
 
- .card{
+.card {
   border: 4px solid var(--secondary) !important;
   margin: 10px;
- }
+}
 
 .aside {
   border-right: 4px solid var(--tertiary);
   text-align: right;
   font-size: 40px;
-    }
+}
 
 .card-body {
   background-color: var(--tertiary);
@@ -50,14 +54,14 @@ h1, h2, h3, h4, p {
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: bottom;
-  transition:  all 0.25s ease-in;
+  transition: all 0.25s ease-in;
 
 }
 
 .navbar {
-margin: 0px 10px 0px 10px;
-min-height: 100px;
-background-color: var(--tertiary);
+  margin: 0px 10px 0px 10px;
+  min-height: 100px;
+  background-color: var(--tertiary);
 
 
 }
@@ -70,10 +74,10 @@ background-color: var(--tertiary);
   font-size: 1.1rem;
 }
 
-.nav-item a:hover{
-    background-size: 100% 100%;
-    color: var(--primary) !important;
-  }
+.nav-item a:hover {
+  background-size: 100% 100%;
+  color: var(--primary) !important;
+}
 
 
 
@@ -84,7 +88,7 @@ background-color: var(--tertiary);
 }
 
 .jumboImg img {
-  margin: 45px;  
+  margin: 45px;
 }
 
 
@@ -97,51 +101,51 @@ background-color: var(--tertiary);
 .about-me-img1 {
   background-image: url('../images/music.jpeg');
   background-size: cover;
-  }
+}
 
- .about-me-img2 {
+.about-me-img2 {
   background-image: url('../images/tech.jpeg');
   background-size: cover;
   background-position: 50% 62%;
- }
+}
 
- .about-me-img3 {
+.about-me-img3 {
   background-image: url('../images/study.jpeg');
   background-size: cover;
   background-position: 5% 32%;
- }
+}
 
- .about-me-img4 {
+.about-me-img4 {
   background-image: url('../images/design.jpeg');
   background-size: cover;
   background-position: 5% 5%;
- }
+}
 
- .about-me-img5 {
+.about-me-img5 {
   background-image: url('../images/hardwork.jpeg');
   background-size: cover;
   background-position: 50% 50%;
-  }
+}
 
 
- .about-me-img-height {
+.about-me-img-height {
   height: 18vh;
- }
+}
 
 
 /* skills */
 
 .skills {
 
-  height: 105vh;  
+  height: 105vh;
 
 }
 
-.skills-img{
- height: 20vh; 
- margin-top: 10px; 
- margin-bottom: 40px; 
- margin-left: 170px;
+.skills-img {
+  height: 20vh;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 170px;
 }
 
 .skills a:hover {
@@ -151,84 +155,84 @@ background-color: var(--tertiary);
 /* WORK */
 
 
-  .projects {
-       height: 110vh;
-  }
+.projects {
+  height: 110vh;
+}
 
-  .projects-img1 {
-    background-image: url('../images/codequiz.png');
-    background-size: cover;
-    background-position: 50% 50%;
-    }
-  
-   .projects-img2 {
-    background-image: url('../images/fruit.png');
-    background-size: cover;
-    background-position: 50% 30%;
-   }
-  
-   .projects-img3 {
-    background-image: url('../images/password.png');
-    background-size: cover;
-    background-position: 50% 30%;
-   }
-  
-   .projects-img4 {
-    background-image: url('../images/film.jpg');
-    background-size: cover;
-    background-position: 50% 50%;
-   }
-  
-  
-   .projects-img-height {
-    height: 30vh;
-   }
+.projects-img1 {
+  background-image: url('../images/weather.png');
+  background-size: cover;
+  background-position: 50% 28%;
+}
 
-   .transition {
-    position: relative 90%;
-    background-color: rgba(49, 52, 61, 0.95);
-    color: var(--secondary);
-    background-size: 100% 100%;
-    margin: 4px;
-    padding: 25px;
-    opacity: 0;
-    transition:  all 0.20s ease-in;
-    height: 96%;
-   }
+.projects-img2 {
+  background-image: url('../images/fruit.png');
+  background-size: cover;
+  background-position: 50% 30%;
+}
 
-   .transition a {
-    color: rgba(146, 204, 206, 1) !important;
-    padding: 5px;
-    background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: bottom;
-    transition:  all 0.25s ease-in;
-  
-  }
+.projects-img3 {
+  background-image: url('../images/password.png');
+  background-size: cover;
+  background-position: 50% 30%;
+}
 
-  .transition a:hover{
-      background-size: 100% 100%;
-      color: var(--primary) !important;
-    }
+.projects-img4 {
+  background-image: url('../images/film.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+}
 
-   .transition p {
-    margin-top: 3em;
-    margin-bottom: 2em;
-    margin-left: 1em;
-    margin-right: 1em;
-    /* font-weight: bolder; */
-   }
 
-   .transition:hover {
-    opacity: 100%;
-   }
+.projects-img-height {
+  height: 30vh;
+}
 
-  /* contact */
+.transition {
+  position: relative 90%;
+  background-color: rgba(49, 52, 61, 0.95);
+  color: var(--secondary);
+  background-size: 100% 100%;
+  margin: 4px;
+  padding: 25px;
+  opacity: 0;
+  transition: all 0.20s ease-in;
+  height: 96%;
+}
+
+.transition a {
+  color: rgba(146, 204, 206, 1) !important;
+  padding: 5px;
+  background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+
+}
+
+.transition a:hover {
+  background-size: 100% 100%;
+  color: var(--primary) !important;
+}
+
+.transition p {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+  /* font-weight: bolder; */
+}
+
+.transition:hover {
+  opacity: 100%;
+}
+
+/* contact */
 
 .contact {
   margin-top: 15px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .contact a:hover {
@@ -238,9 +242,9 @@ background-color: var(--tertiary);
 /* footer */
 
 .navbar2 {
-    margin: 10px 10px 0px 10px;
-    min-height: 100px;
-    background-color: var(--tertiary);
+  margin: 10px 10px 0px 10px;
+  min-height: 100px;
+  background-color: var(--tertiary);
 
 }
 
@@ -248,7 +252,7 @@ background-color: var(--tertiary);
   margin: 0px;
   padding: 10px;
   background-color: var(--secondary);
- }
+}
 
 /* Fade on sections */
 
