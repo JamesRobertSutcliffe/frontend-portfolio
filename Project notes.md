@@ -32,10 +32,13 @@ other
 Blog?
 Revise README
 make mobile friendly
+make a cooler navigation system? no scroll / just click? Get rid of nav bar?
 
 Next steps:
 
 NEXT:
-make hero animation
-skills section animation?? 
+contact section
+intersection observer? make fade on smoother in section? about me each block at a time or line by line? same with work
+intere
+make mobile friendly
 others...
