@@ -1,3 +1,5 @@
+// IntersectionObserver functions load sections on scroll;
+
 const hiddenSections = document.querySelectorAll('.hide');
 
 const observer = new IntersectionObserver(entries => {
@@ -13,3 +15,24 @@ const observer = new IntersectionObserver(entries => {
 hiddenSections.forEach(attr => {
     observer.observe(attr);
 })
+
+// Locks navbar button animation to selected section
+
+let navSwitch = document.querySelectorAll("#nav-switch");
+
+function remove() {
+    navSwitch.forEach(function (item) {
+        item.classList.remove("nav-click");
+    })
+}
+
+navSwitch.forEach(function (item) {
+    item.classList.remove("nav-click");
+    item.addEventListener("click", function (e) {
+        remove();
+        e.target.classList.add("nav-click");
+    })
+});
+
+let logo = document.getElementById('logo');
+logo.addEventListener('click', remove);

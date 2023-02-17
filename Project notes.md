@@ -2,8 +2,7 @@
 
 Jumbo tron
 ---------
-add animated background
-(animation for hero (tunnel loop)? simple moving squares and circles?)
+
 
 About me 
 ---------
@@ -26,19 +25,10 @@ Add contact me form
 make section single vh
 fade on
 
-other
----------
-
-Blog?
-Revise README
-make mobile friendly
-make a cooler navigation system? no scroll / just click? Get rid of nav bar?
-
-Next steps:
-
 NEXT:
 contact section
-intersection observer? make fade on smoother in section? about me each block at a time or line by line? same with work
-intere
+add light and dark modes? Colour scheme change on button toggle
+add some kind of animations / bg to all sections as well as jumbo
 make mobile friendly
-others...
+REVISE README
+

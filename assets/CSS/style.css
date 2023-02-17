@@ -92,6 +92,10 @@ p {
   color: var(--primary) !important;
 }
 
+#logo:hover {
+  scale: 110%;
+}
+
 /* JUMBO */
 
 .jumbotron-fluid {
@@ -475,7 +479,7 @@ p {
 
 .hide {
   opacity: 0;
-  transition: 400ms;
+  transition: 1000ms;
 }
 
 .show {
