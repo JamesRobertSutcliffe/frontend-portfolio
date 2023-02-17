@@ -11,6 +11,8 @@ body {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: var(--light);
   letter-spacing: 1px;
+  height: 100%;
+  overflow-y: hidden;
 
 }
 
@@ -45,10 +47,11 @@ p {
 
 /* NAVBAR */
 
-.navbar-nav a {
+.nav-a {
   color: rgba(146, 204, 206, 1) !important;
   margin-right: 30px;
   margin-left: 30px;
+  margin-bottom: 5px;
   background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
@@ -56,9 +59,23 @@ p {
   transition: all 0.25s ease-in;
 }
 
+.nav-click {
+  color: rgba(146, 204, 206, 1) !important;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+  background-size: 100% 100%;
+  color: var(--primary) !important;
+}
+
 .navbar {
   margin: 0px 10px 0px 10px;
-  min-height: 100px;
+  min-height: 70px;
   background-color: var(--tertiary);
 }
 
