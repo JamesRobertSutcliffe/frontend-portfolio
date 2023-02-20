@@ -36,3 +36,12 @@ navSwitch.forEach(function (item) {
 
 let logo = document.getElementById('logo');
 logo.addEventListener('click', remove);
+
+// starter code for colour change (light / dark mode) on toggle //
+
+let button = document.getElementById('xxx');
+
+button.addEventListener('click', function () {
+    document.documentElement.style.setProperty('--secondary', 'rgba(238, 238, 247, 1)');
+    console.log('chips')
+})

@@ -12,7 +12,7 @@ About me
 skills
 ---------
 
-find cool way for icons to animate on page - icons drop on and float into position?
+find cool way for icons to animate on page - icons drop on and float into position? breathing?
 
 Work section
 ---------
@@ -26,9 +26,10 @@ make section single vh
 fade on
 
 NEXT:
-contact section
-add light and dark modes? Colour scheme change on button toggle
-add some kind of animations / bg to all sections as well as jumbo
+contact section - sorted
+add light and dark modes? Colour scheme change on button toggle - code started
+
+add some kind of animations / bg to all sections as well as jumbo -- sun and moon?
 make mobile friendly
 REVISE README
 
