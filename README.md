@@ -12,7 +12,7 @@ N/A.
 
 The deployed site has an intuitive design with a navigation bar linking to the various sections of the page. There is also clickable links to examples of my work and contact details.
 
-![FrontEnd Portfolio](.assets/images/password.png)
+![FrontEnd Portfolio](assets/images/password.png)
 
 ## Features
 
