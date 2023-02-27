@@ -33,3 +33,11 @@ add some kind of animations / bg to all sections as well as jumbo -- sun and moo
 make mobile friendly
 REVISE README
 
+
+to do: 
+
+1 - turn black and white / change nav bar more slick
+2 - put about me / skills together / floating animations / remove text from boxes only appear on hover
+3 - image carousel of projects - floating examples in pc and phone screens floating on top - info below
+4 - contact page put icons below contact form / put some text linking to email saying email directly or use the form
+
