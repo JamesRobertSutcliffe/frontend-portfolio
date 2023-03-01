@@ -14,8 +14,6 @@ The deployed site has an intuitive design with a navigation bar linking to the v
 
 ![FrontEnd Portfolio](assets/images/password.png)
 
-## Features
-
 ## Credits
 
 N/A.
